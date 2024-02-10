@@ -1,0 +1,69 @@
+    1  mkdir myrepo
+    2  ls
+    3  cd myrepo/
+    4  git init
+    5  ls
+    6  ls -a
+    7  ls -la .git/
+    8  touch newfile.py
+   10  ls
+   11  cat newfile.py 
+   12  git add newfile.py 
+   13  git config --global user.email "anikocp26@gmail.com"
+   14  git config --global user.name "Ashraful Karim Khan"
+   15  git commit -m "added newfile"
+   16  git log
+   17  git branch my1stbranch
+   18  git branch
+   19  git checkout my1stbranch
+   20  git branch
+   21  git checkout -b my2ndbranch
+   22  git branc
+   23  git branch
+   24  ls
+   25  echo "hello new file">>newfile
+   26  ls
+   27  touch readme.md
+   28  git branch
+   29  git add readme.md 
+   30  git status
+   31  git add *
+   32  git status
+   33  git commit -m "added readme and newfile"
+   34  git log
+   35  git revert HEAD --no-edit
+   36  ls
+   37  git log
+   38  git branch
+   39  touch goodfile
+   40  git add goodfile 
+   41  git commit -m "added godfile"
+   42  git log
+   43  git branch
+   44  git checkout master
+   45  git status
+   46  git log
+   47  git merge my2ndbranch
+   48  git log
+   49  git branch -d my2ndbranch
+   50  mkdir newbranch
+   51  cd newbranch/
+   52  git init
+   53  cd ..
+   54  rm -rf newb*
+   55  ls
+   56  git branch newbranch
+   57  git branch
+   58  git checkout newbranch
+   59  ls -a
+   60  touch newbranchfile
+   61  git add newbranchfile
+   62  git commit -m "added newbranchfile"
+   63  git revert HEAD --no-edit
+   64  touch newgoodfile
+   65  git add newgoodfile 
+   66  git commit -m "added newgoodfile"
+   67  git checkout master
+   68  git merge newbranch
+   69  ls
+   70  history
